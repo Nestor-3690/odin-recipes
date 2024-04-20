@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", "Times", serif;
+    border: solid 5px black;
+    font-weight: 500;
+}
+
+.recipelist {
+    font-family: "Times New Roman", "Times", serif;
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.para {
+    font-family: "Times New Roman", "Times", serif;
+    margin: 5px;
+}
+
+a:link {
+    color: rgb(22, 92, 184);
+}
+
+a:visited {
+    color: rgb(93, 1, 93);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
