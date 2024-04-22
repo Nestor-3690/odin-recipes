@@ -1,29 +1,41 @@
 h1 {
     text-align: center;
     font-family: "Georgia", "Times New Roman", "Times", serif;
-    border: solid 5px black;
+    border: 5px solid black;
     font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 .recipelist {
     font-family: "Times New Roman", "Times", serif;
 }
 
+.onerecipe {
+    padding: 2px;
+}
+
+.recipediv {
+    border: 3px dotted black;
+    margin: 10px 2px;
+}
+
 .header {
     text-decoration: underline;
+    margin: 10px;
+}
+
+.desc {
+    padding-left: 10px;
 }
 
 .para {
     font-family: "Times New Roman", "Times", serif;
-    margin: 5px;
+    margin: 20px 5px;
 }
 
 a:link {
     color: rgb(22, 92, 184);
-}
-
-a:visited {
-    color: rgb(93, 1, 93);
 }
 
 a:hover {
@@ -39,4 +51,16 @@ a:active {
 img {
     margin: auto;
     display: block;
+}
+
+.recipelink {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(171, 170, 170);
+    color: white;
+
 }
